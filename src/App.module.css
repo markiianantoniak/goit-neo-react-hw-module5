@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  display: block;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.main {
+  padding: 20px;
+  min-height: calc(100vh - 80px);
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 18px;
+}
